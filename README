@@ -1,0 +1,5 @@
+this requires a bazel binary built from head, see https://github.com/bazelbuild/bazel
+
+bazel build --apk_signing_method=v2 //:app
+stat --printf="%s\n" bazel-bin/app.apk
+1660
